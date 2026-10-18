@@ -1,0 +1,23 @@
+
+{
+  "manifest_version": 3,
+  "name": "Email OTP Autofill",
+  "version": "1.0.0",
+  "description": "Detect verification codes from authorized email and assist with OTP autofill.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Email OTP Autofill"
+  },
+  "permissions": [
+    "storage",
+    "identity"
+  ],
+  "oauth2": {
+    "client_id": "235276201114-0vivib9599i3i4b79mus6cu3ukft0svr.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/gmail.readonly"
+    ]
+  }
+}
+
+
